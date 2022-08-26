@@ -1,21 +1,21 @@
 /* Body styling */
 body {
-    background: #000000;
+    background: #3d7579;
     color: #fff;
-    font-family: Helvetica, Arial;
+    font-family: Copperplate;
     font-size: 27px;
     font-weight: 300;
     line-height: 1.65em;
     margin: 0 auto;
-    max-width: 960px;
-    padding: 40px 10px;  
+    max-width: 1200px;
+    padding: 30px 10px;  
   }
   
   
   /* Heading Styles */
   h1 {
     font-size: 60px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: center;
   }
   
@@ -30,7 +30,7 @@ body {
   /* Submit Button, Columns, Questions, and Inputs */
   .button-submit {
     background: transparent;
-    border: 3px solid #fff;
+    border: 3px solid rgb(3, 3, 3);
     border-radius: 6px;
     color: #fff;
     cursor: pointer; 
@@ -44,7 +44,7 @@ body {
   
   .bucket {
     display: inline-block;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     width: 100%;
   }
   
@@ -53,7 +53,7 @@ body {
     float: left;
     margin: 0;
     padding: 0;
-    width: 33.333333%;
+    width: 25%;
   }
   
   .choice-bucket label {
@@ -65,7 +65,7 @@ body {
   .choice-bucket input {
     border: 0;
     border-radius: 6px;
-    color: #713e94;
+    color: #3d7579;
     font-size: 18px;
     margin: 15px 4%;
     outline: 0;
@@ -92,7 +92,7 @@ body {
     margin: 60px 0;
     background: #fff;
     border-radius: 6px;
-    color: #713e94;
+    color: #3d7579;
     transition: 1s linear;
   }
   
