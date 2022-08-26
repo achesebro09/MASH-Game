@@ -14,7 +14,7 @@ body {
   
   /* Heading Styles */
   h1 {
-    font-size: 60px;
+    font-size: 90px;
     color: rgb(255, 255, 255);
     text-align: center;
   }
@@ -29,7 +29,8 @@ body {
   
   /* Submit Button, Columns, Questions, and Inputs */
   .button-submit {
-    background: transparent;
+    background: solid;
+    background-color: rgb(79, 8, 8);
     border: 3px solid rgb(3, 3, 3);
     border-radius: 6px;
     color: #fff;
@@ -63,9 +64,10 @@ body {
   }
   
   .choice-bucket input {
+    background-color: rgb(166, 187, 187);
     border: 0;
     border-radius: 6px;
-    color: #3d7579;
+    color: #013134;
     font-size: 18px;
     margin: 15px 4%;
     outline: 0;
@@ -90,9 +92,9 @@ body {
   /* Answer Div */
   #answers {
     margin: 60px 0;
-    background: #fff;
+    background: rgb(255, 255, 255);
     border-radius: 6px;
-    color: #3d7579;
+    color: #033134;
     transition: 1s linear;
   }
   
