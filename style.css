@@ -1,7 +1,7 @@
 /* Body styling */
 body {
-    background: #3d7579;
-    color: #fff;
+    background: #e66306;
+    color: rgb(0, 0, 0);
     font-family: Copperplate;
     font-size: 27px;
     font-weight: 300;
@@ -14,8 +14,8 @@ body {
   
   /* Heading Styles */
   h1 {
-    font-size: 90px;
-    color: rgb(255, 255, 255);
+    font-size: 120px;
+    color: rgb(0, 0, 0);
     text-align: center;
   }
   
@@ -36,7 +36,7 @@ body {
     color: #fff;
     cursor: pointer; 
     display: block;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;  
     margin: 0 auto 60px;
     padding: 1em 2em; 
@@ -58,17 +58,17 @@ body {
   }
   
   .choice-bucket label {
-    font-size: 12px;
+    font-size: 24px;
     line-height: 13px;
     margin: 15px 4%;
   }
   
   .choice-bucket input {
-    background-color: rgb(166, 187, 187);
+    background-color: rgb(255, 255, 255);
     border: 0;
     border-radius: 6px;
-    color: #013134;
-    font-size: 18px;
+    color: #000000;
+    font-size: 40px;
     margin: 15px 4%;
     outline: 0;
     padding: 16px 0;
@@ -81,7 +81,7 @@ body {
   }
   
   .highlight {
-    font-size: 18px;
+    font-size: 30px;
     line-height: 24px;
     margin-left: 30px;
     opacity: .8;
@@ -94,7 +94,7 @@ body {
     margin: 60px 0;
     background: rgb(255, 255, 255);
     border-radius: 6px;
-    color: #033134;
+    color: #000000;
     transition: 1s linear;
   }
   
